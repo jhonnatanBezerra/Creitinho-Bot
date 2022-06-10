@@ -1,5 +1,14 @@
 {
-  "name": "venom",
+  "name": "creitinho-bot",
+  "bin": "./src/app.js",
+  "pkg":{
+    "assets":[
+       "node_modules"
+    ],
+    "target": [
+        "node7"
+    ]
+},  
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
